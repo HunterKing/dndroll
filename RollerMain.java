@@ -23,7 +23,7 @@ public class RollerMain
 				int[] result = new int[rollCount];
 				for(int i = 0; i < rollCount; i++)
 				{
-					result[i] = rollRandom.nextInt((DICE_TYPE[dieChoice])+1); //return value, incremented by 1 to be in 1-20 range.
+					result[i] = rollRandom.nextInt((DICE_TYPE[dieChoice]))+1; //return value, incremented by 1 to be in 1-n range.
 					System.out.print(result[i] + " ");
 				}
 				System.out.print("\n");
